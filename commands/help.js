@@ -62,13 +62,13 @@ module.exports = {
            { name: '🎵 Now Playing', value: 'Display the currently playing song information' },
           { name: '🔊 Volume', value: 'Adjust the music volume [ hearing at high volumes is risky ]' },
         ) 
-       .setImage('https://cdn.discordapp.com/attachments/1150827819547504741/1168917372267151370/standard.gif?ex=65538222&is=65410d22&hm=b4994392f44679da41fc9304eb69deaa3769e136057556deec0db69ae8d33a97&')
+       .setImage('https://share.creavite.co/66544383646ebad6e1a3cf96.gif')
       const button1 = new ButtonBuilder()
-        .setLabel('YouTube')
-        .setURL('https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A')
+        .setLabel('Discord Offcial')
+        .setURL('https://discord.gg/3mWBNfxguu')
         .setStyle(ButtonStyle.Link);
 
-      const button2 = new ButtonBuilder()
+/*      const button2 = new ButtonBuilder()
         .setLabel('Discord')
         .setURL('https://discord.gg/FUEHs7RCqz')
         .setStyle(ButtonStyle.Link);
@@ -77,6 +77,7 @@ module.exports = {
         .setLabel('Code')
         .setURL('https://github.com/GlaceYT/MUSIC-BOT-v3.6')
         .setStyle(ButtonStyle.Link);
+      
 
       const row = new ActionRowBuilder()
         .addComponents(button1, button2, button3);
